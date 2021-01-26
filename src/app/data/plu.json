@@ -1,0 +1,17 @@
+[
+    {
+        "code": 1,
+        "name": "test",
+        "searchtext": "TEST_1"
+    },
+    {
+        "code": 2,
+        "name": "F",
+        "searchtext": "F_2"
+    },
+    {
+        "code": 3,
+        "name": "G",
+        "searchtext": "G_3"
+    }
+]

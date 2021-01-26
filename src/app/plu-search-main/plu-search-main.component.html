@@ -1,0 +1,16 @@
+<form>
+    <div class="form-group">
+        <input type="text" name="searchcontain" placeholder="Search key work..." class="form-control"
+            [formControl]="searchcontain" />
+    </div>
+    <div class="lis-plu">
+        <div *ngFor="let plu of listPlu" class="plu-item">
+            {{plu.name}}
+        </div>
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" [formControl]="pluCode" />
+        <input type="text" class="form-control" [formControl]="pluName" />
+        <button (click)="add()">Add</button>
+    </div>
+</form>
